@@ -33,16 +33,20 @@ svg {
     animation: paola_hair 5s ease-in-out infinite;
 }
 
-#paola_iris_left, #paola_iris_left_gradient {
+#paola_iris_left {
     animation: paola_iris_left 10s ease-in-out infinite;
 }
 
-#paola_iris_right, #paola_iris_right_gradient {
+#paola_iris_right {
     animation: paola_iris_right 10s ease-in-out infinite;
 }
 
 #paola_mouth {
     animation: paola_mouth 10s ease-in-out infinite;
+}
+
+#Sea {
+    animation: sea 8s ease-in-out infinite;
 }
 
 @keyframes michaell_hair {
@@ -84,5 +88,11 @@ svg {
 @keyframes paola_mouth {
     50% {
         d: path("M213 410.5C213.523 413.371 216.217 421.485 226.162 420.926C236.106 420.366 236.096 413.291 237.5 410.5C236 407.5 237.512 419.011 226.02 419.542C214.528 420.073 212.477 407.629 213 410.5Z");
+    }
+}
+
+@keyframes sea {
+    50% {
+        d: path("M660 341.144C660 512.272 510.754 660 328.5 660C146.246 660 0 512.272 0 341.144C77.5 369.5 147.5 341.144 340.662 341.143C522.916 341.143 595.5 315 660 341.144Z");
     }
 }
